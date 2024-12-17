@@ -1,0 +1,167 @@
+[
+  {
+    "product_id": "L001",
+    "product_title": "Dell XPS 13",
+    "product_image": "/img/img/notebook-xps-13-9345-t-gray-gallery-2.avif",
+    "category": "laptops",
+    "price": 999.99,
+    "description": "A high-performance laptop with a stunning display.",
+    "Specification": ["13.3-inch display", "Intel i7", "16GB RAM", "512GB SSD"],
+    "availability": "Yes",
+    "rating": 4.5
+  },
+  {
+    "product_id": "L002",
+    "product_title": "MacBook Pro M1",
+    "product_image": "/img/img/mackbook_pro_m1.jpg",
+    "category": "laptops",
+    "price": 1299.99,
+    "description": "The latest MacBook Pro with M1 chip.",
+    "Specification": ["13-inch display", "Apple M1", "8GB RAM", "256GB SSD"],
+    "availability": "Yes",
+    "rating": 4.8
+  },
+  {
+    "product_id": "L003",
+    "product_title": "HP Spectre x360",
+    "product_image": "/img/img/hp_360.webp",
+    "category": "laptops",
+    "price": 1099.99,
+    "description": "A versatile 2-in-1 laptop with a sleek design.",
+    "Specification": ["13.3-inch display", "Intel i7", "16GB RAM", "512GB SSD"],
+    "availability": "Yes",
+    "rating": 4.6
+  },
+  {
+    "product_id": "L004",
+    "product_title": "Lenovo ThinkPad X1",
+    "product_image": "/img/img/thinkpad_x1_carbon.avif",
+    "category": "laptops",
+    "price": 1199.99,
+    "description": "A durable and powerful business laptop.",
+    "Specification": ["14-inch display", "Intel i7", "16GB RAM", "1TB SSD"],
+    "availability": "Yes",
+    "rating": 4.7
+  },
+  {
+    "product_id": "L005",
+    "product_title": "Asus ZenBook 14",
+    "product_image": "/img/img/asus_zen_14.webp",
+    "category": "laptops",
+    "price": 899.99,
+    "description": "A compact and lightweight laptop with great performance.",
+    "Specification": ["14-inch display", "Intel i5", "8GB RAM", "256GB SSD"],
+    "availability": "Yes",
+    "rating": 4.4
+  },
+  {
+    "product_id": "L006",
+    "product_title": "Acer Swift 3",
+    "product_image": "/img/img/acer_swift_3.webp",
+    "category": "laptops",
+    "price": 749.99,
+    "description": "A budget-friendly laptop with solid performance.",
+    "Specification": ["14-inch display", "AMD Ryzen 5", "8GB RAM", "512GB SSD"],
+    "availability": "Yes",
+    "rating": 4.3
+  },
+  {
+    "product_id": "P001",
+    "product_title": "iPhone 13",
+    "product_image": "/img/img/iphone13.jpg",
+    "category": "phones",
+    "price": 799.99,
+    "description": "The latest iPhone with advanced features.",
+    "Specification": ["6.1-inch display", "A15 Bionic", "128GB storage"],
+    "availability": "Yes",
+    "rating": 4.9
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S21",
+    "product_image": "/img/img/sm_g_s21.jpg",
+    "category": "phones",
+    "price": 699.99,
+    "description": "A high-end Android phone with a stunning display.",
+    "Specification": ["6.2-inch display", "Exynos 2100", "128GB storage"],
+    "availability": "Yes",
+    "rating": 4.7
+  },
+  {
+    "product_id": "A001",
+    "product_title": "Sony WH-1000XM4",
+    "product_image": "/img/img/sony-1.jpg",
+    "category": "accessories",
+    "price": 349.99,
+    "description": "Industry-leading noise-canceling headphones.",
+    "Specification": ["Over-ear", "Bluetooth", "30-hour battery life"],
+    "availability": "Yes",
+    "rating": 4.8
+  },
+  {
+    "product_id": "A002",
+    "product_title": "Apple AirPods Pro",
+    "product_image": "/img/img/airpod_pro.jpeg",
+    "category": "accessories",
+    "price": 249.99,
+    "description": "High-quality wireless earbuds with active noise cancellation.",
+    "Specification": ["In-ear", "Bluetooth", "24-hour battery life"],
+    "availability": "Yes",
+    "rating": 4.7
+  },
+  {
+    "product_id": "S001",
+    "product_title": "Apple Watch Series 7",
+    "product_image": "/img/img/apple-watch-series-7-aluminum-1.jpg",
+    "category": "smartWatches",
+    "price": 399.99,
+    "description": "The latest Apple Watch with advanced health features.",
+    "Specification": ["41mm", "GPS", "18-hour battery life"],
+    "availability": "Yes",
+    "rating": 4.9
+  },
+  {
+    "product_id": "S002",
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "/img/img/sm_w_4.jpg",
+    "category": "smartWatches",
+    "price": 299.99,
+    "description": "A versatile smartwatch with fitness tracking features.",
+    "Specification": ["40mm", "GPS", "40-hour battery life"],
+    "availability": "Yes",
+    "rating": 4.6
+  },
+  {
+    "product_id": "M001",
+    "product_title": "MacBook Air M1",
+    "product_image": "/img/img/mackbook_air_m1.jpg",
+    "category": "laptops",
+    "price": 999.99,
+    "description": "A lightweight and powerful laptop with the M1 chip.",
+    "Specification": ["13.3-inch display", "Apple M1", "8GB RAM", "256GB SSD"],
+    "availability": "Yes",
+    "rating": 4.8
+  },
+  {
+    "product_id": "I001",
+    "product_title": "iPhone 12",
+    "product_image": "/img/img/iphone_12.jpg",
+    "category": "phones",
+    "price": 699.99,
+    "description": "A previous generation iPhone with great features.",
+    "Specification": ["6.1-inch display", "A14 Bionic", "64GB storage"],
+    "availability": "Yes",
+    "rating": 4.7
+  },
+  {
+    "product_id": "I002",
+    "product_title": "iPhone 14",
+    "product_image": "/img/img/apple-iphone-14-3.jpg",
+    "category": "phones",
+    "price": 399.99,
+    "description": "A budget-friendly iPhone with powerful performance.",
+    "Specification": ["4.7-inch display", "A13 Bionic", "64GB storage"],
+    "availability": "Yes",
+    "rating": 4.5
+  }
+]
