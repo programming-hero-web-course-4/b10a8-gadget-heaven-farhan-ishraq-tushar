@@ -9,7 +9,6 @@ import { addToCartContext } from "../../context/Context";
 //  export const cardDataContext = createContext();
 
 const CardDetails = () => {
-
   const data = useLoaderData();
   console.log(data);
 
@@ -62,10 +61,19 @@ const CardDetails = () => {
   //     setIsDisabled(true)
   //   }
   const setCardData = JSON.parse(localStorage.getItem("cardData")) || [];
+  const whitelistData= JSON.parse(localStorage.getItem("whitelistData")) || [];
 
-  const isExist = setCardData.find((p) => p.product_id === product_id);
+  // const isExist = setCardData.find((p) => p.product_id === product_id);
 
-  console.log(isExist);
+  const isListExist = whitelistData.find((p) => p.product_id === product_id);
+
+  if(isListExist !== undefined){
+    document.getElementById("wishList").disabled = true;
+    document.getElementById("wishList").style.backgroundColor = "gray";
+  }
+  
+
+  console.log(isListExist);
   //    disabling button when item is added to the card
   //   const cartTrueFalse = localStorage.getItem("setItem")|| null;
   //   const [isDisabled, setIsDisabled] = useState(false);
@@ -115,14 +123,20 @@ const CardDetails = () => {
       console.log(setGadgetPrice);
     }
   };
+  // const isExist = setWishListData.find((p) => p.product_id === product_id);
+
+
 
   const addToWhitelist = () => {
+    document.getElementById("wishList").style.backgroundColor = "gray";
+    
     const setWishListData =
-      JSON.parse(localStorage.getItem("whitelistData")) || [];
-
+    JSON.parse(localStorage.getItem("whitelistData")) || [];
+    
     const isExist = setWishListData.find((p) => p.product_id === product_id);
-
+    
     if (isExist !== undefined) {
+
       toast.error(
         <div className="flex items-center justify-center gap-1">
           <img className="w-[50px]" src={product_image} />
@@ -142,7 +156,6 @@ const CardDetails = () => {
         <div className="flex items-center justify-center gap-1">
           <img className="w-[50px]" src={product_image} />
           <h1>
-            {" "}
             <span className="font-semibold">{product_title} </span> is added to
             the whitelist{" "}
           </h1>
@@ -283,7 +296,7 @@ const CardDetails = () => {
                 Availability:{" "}
                 <span className="font-normal">{availability}</span>{" "}
               </p>
-              <p className="flex gap-2 items-center pb-2">
+              <div className="flex gap-2 items-center pb-2">
                 <span className="font-normal">Rating:</span>
 
                 <div className="rating">
@@ -320,7 +333,7 @@ const CardDetails = () => {
                   style={""}
                   edit={false}
                 ></Rating> */}
-              </p>
+              </div>
 
               <div className="flex items-center gap-4">
                 <button
@@ -339,6 +352,7 @@ const CardDetails = () => {
                 </button>
 
                 <button
+                  id="wishList"
                   onClick={addToWhitelist}
                   //   disabled={isListedDisabled}
                   className="flex gap-2 text-nowrap bg-purple-500 

@@ -1,9 +1,11 @@
 // import React from 'react';
 
+import { useEffect } from "react";
 import Footer from "../footer/Footer";
 import Navbar from "../header/Navbar";
 
 const FAQ = () => {
+  useEffect(()=>{document.title = "Gadget Heaven | FAQ"}, [])
   return (
     <div>
       <Navbar></Navbar>
