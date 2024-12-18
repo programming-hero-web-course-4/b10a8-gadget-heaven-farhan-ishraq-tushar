@@ -61,7 +61,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/*",
+        path: "/iPhone",
         element: <NoData></NoData>,
       },
 
