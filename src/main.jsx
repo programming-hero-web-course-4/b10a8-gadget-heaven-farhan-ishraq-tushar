@@ -65,10 +65,6 @@ const router = createBrowserRouter([
         element: <NoData></NoData>,
       },
 
-      // {
-      //   path: "/*",
-      //   element: <NotFound></NotFound>,
-      // }
     ],
   },
 
@@ -81,12 +77,6 @@ const router = createBrowserRouter([
     loader: () => fetch("/gadgets.json"),
   },
 
-  // {
-  //   path: "laptops:id",
-  //   // path: `${category}/${product_id}`,
-  //   element: <CardDetails></CardDetails>,
-  //   loader: () => fetch("/gadgets.json")
-  // },
 
   {
     path: "/dashboard",
